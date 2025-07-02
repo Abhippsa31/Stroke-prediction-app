@@ -24,3 +24,55 @@ Install dependencies:
 
 ```bash
 pip install streamlit pandas numpy scikit-learn joblib
+
+▶️ Running the App
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/stroke-risk-predictor.git
+cd stroke-risk-predictor
+Ensure the following files are present:
+
+app.py – Main Streamlit application
+
+stroke_model.pkl – Trained machine learning model
+
+scaler.pkl – Scaler used during model training
+
+Start the Streamlit app:
+
+bash
+Copy
+Edit
+streamlit run app.py
+Open in browser at: http://localhost:8501
+
+🧾 Input Parameters
+Parameter	Description
+Gender	Male / Female
+Age	Slider input (1-100)
+Hypertension	Yes / No
+Heart Disease	Yes / No
+Ever Married	Yes / No
+Work Type	Private / Self-employed / Govt_job / children / Never_worked
+Residence Type	Urban / Rural
+Average Glucose	Numeric input (50.0 - 300.0 mg/dL)
+BMI	Numeric input (10.0 - 60.0)
+Smoking Status	formerly smoked / never smoked / smokes / Unknown
+
+📊 Output
+Prediction: High or Low Risk of Stroke
+
+Confidence: Probability of stroke in percentage
+
+Visualizations:
+
+Progress bar for stroke risk
+
+Metric widget showing confidence
+
+Bar chart comparing stroke vs no-stroke probability
+
+Health Guidance Message: Based on predicted risk level
