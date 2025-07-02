@@ -25,7 +25,7 @@ Install dependencies:
 ```bash
 pip install streamlit pandas numpy scikit-learn joblib
 
-▶️ Running the App
+###▶️ Running the App
 Clone this repository:
 
 bash
@@ -49,7 +49,7 @@ Edit
 streamlit run app.py
 Open in browser at: http://localhost:8501
 
-🧾 Input Parameters
+###🧾 Input Parameters
 Parameter	Description
 Gender	Male / Female
 Age	Slider input (1-100)
@@ -62,17 +62,13 @@ Average Glucose	Numeric input (50.0 - 300.0 mg/dL)
 BMI	Numeric input (10.0 - 60.0)
 Smoking Status	formerly smoked / never smoked / smokes / Unknown
 
-📊 Output
+###📊 Output
 Prediction: High or Low Risk of Stroke
-
 Confidence: Probability of stroke in percentage
 
 Visualizations:
 
 Progress bar for stroke risk
-
 Metric widget showing confidence
-
 Bar chart comparing stroke vs no-stroke probability
-
 Health Guidance Message: Based on predicted risk level
